@@ -25,6 +25,7 @@ int funt2(int c)
 }
 int main()
 {
+	setlocale(LC_ALL, "Russian"); //  Настройка локализации программы на русский язык
 	int a = 0;
 	int b = 0;
 	int e = 0; // Инициализирована переменная e
