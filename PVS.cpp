@@ -17,10 +17,11 @@ int funt1(int b)
 		b -= i;
 	return b; // Добавлено возвращаемое значение b
 }
-int funt2(int a)
+int funt2(int c)
 {
-	for (int i = 0; i < a; i++)
-		a *= i;
+	for (int i = 0; i < c; i++)
+		c *= i;
+	return c; // Добавлено возвращаемое значение c
 }
 int main()
 {
