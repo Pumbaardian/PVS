@@ -1,6 +1,7 @@
-﻿// PVS.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-// This is a personal academic project. Dear PVS-Studio, please check it.
+﻿// This is a personal academic project. Dear PVS-Studio, please check it.
 // PVS-Studio Static Code Analyzer for C, C++, C#, and Java: https://pvs-studio.com
+// PVS.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
+
 
 #include <iostream>
 using namespace std;
@@ -25,8 +26,8 @@ int main()
 {
 	int a = 0;
 	int b = 0;
-	int e; 
+	int e;
 	cin >> a;
 	cin >> b;
 	int c = a + b;
-	
+}
