@@ -9,25 +9,32 @@ int funt(int a)
 {
 	for (int i = 0; i < a; i++)
 		a += i;
-	
+	return a; // Добавлено возвращаемое значение a
 }
-int funt1(int a)
+int funt1(int b)
 {
-	for (int i = 0; i < a; i++)
-		a -= i;
-	
+	for (int i = 0; i < b; i++)
+		b -= i;
+	return b; // Добавлено возвращаемое значение b
 }
-int funt2(int a)
+int funt2(int c)
 {
-	for (int i = 0; i < a; i++)
-		a *= i;
+	for (int i = 0; i < c; i++)
+		c *= i;
+	return c; // Добавлено возвращаемое значение c
 }
 int main()
 {
+	setlocale(LC_ALL, "Russian"); //  Настройка локализации программы на русский язык
 	int a = 0;
 	int b = 0;
-	int e;
+	int e = 0; // Инициализирована переменная e
+	cout << "Ввод переменной a"; // Добавил комментарий в консоль
 	cin >> a;
+	cout << "Ввод переменной b";
 	cin >> b;
-	int c = a + b;
+	cout << "Ввод переменной e";
+	cin >> e;
+	int c = a + b + e; // Использована переменная e
+	cout << "Результат сложения ранее введенных переменных = " << c; // Добавил вывод перемменой c
 }
