@@ -27,8 +27,9 @@ int main()
 {
 	int a = 0;
 	int b = 0;
-	int e;
+	int e = 0; // Инициализирована переменная e
 	cin >> a;
 	cin >> b;
-	int c = a + b;
+	cin >> e;
+	int c = a + b + e; // Использована переменная e
 }
