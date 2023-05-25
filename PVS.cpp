@@ -9,7 +9,7 @@ int funt(int a)
 {
 	for (int i = 0; i < a; i++)
 		a += i;
-	
+	return a; // Добавлено возвращаемое значение a
 }
 int funt1(int a)
 {
